@@ -100,6 +100,9 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cha-3I-sCS">
                                 <rect key="frame" x="0.0" y="64" width="414" height="191"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="191" id="4dx-Vb-dVb"/>
+                                </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JYq-fc-JLn">
                                 <rect key="frame" x="10" y="152" width="146" height="224"/>
@@ -137,7 +140,6 @@
                             <constraint firstItem="6qu-Fr-Zhi" firstAttribute="top" secondItem="JYq-fc-JLn" secondAttribute="bottom" constant="8" id="aL7-Gx-eIN"/>
                             <constraint firstItem="cha-3I-sCS" firstAttribute="leading" secondItem="arW-uo-llm" secondAttribute="leading" id="geE-AZ-KDU"/>
                             <constraint firstItem="zyJ-tg-Rob" firstAttribute="top" secondItem="cha-3I-sCS" secondAttribute="bottom" constant="8" id="nlP-B8-1QG"/>
-                            <constraint firstItem="arW-uo-llm" firstAttribute="bottom" secondItem="cha-3I-sCS" secondAttribute="bottom" constant="432" id="umB-mZ-2GF"/>
                             <constraint firstItem="zyJ-tg-Rob" firstAttribute="leading" secondItem="JYq-fc-JLn" secondAttribute="trailing" constant="8" id="wHh-RQ-Mf6"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="arW-uo-llm"/>
